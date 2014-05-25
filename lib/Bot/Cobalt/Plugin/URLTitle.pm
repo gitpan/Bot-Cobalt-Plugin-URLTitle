@@ -1,6 +1,6 @@
 package Bot::Cobalt::Plugin::URLTitle;
 # ABSTRACT: Bot::Cobalt plugin for printing the title of a URL
-$Bot::Cobalt::Plugin::URLTitle::VERSION = '0.001';
+$Bot::Cobalt::Plugin::URLTitle::VERSION = '0.002';
 use strict;
 use warnings;
 
@@ -110,13 +110,13 @@ Bot::Cobalt::Plugin::URLTitle - Bot::Cobalt plugin for printing the title of a U
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
    ## In plugins.conf
    URLTitle:
-      Module: Bot::Cobalt::Plugin::Silly::FMK
+      Module: Bot::Cobalt::Plugin::URLTitle
       Config: plugins/twitter.conf # optional
 
    ## In plugins/twitter.conf
